@@ -1,0 +1,16 @@
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\obj\Release\MGS5.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\obj\Release\MGS4.Form1.resources
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\obj\Release\MGS5.csproj.GenerateResource.Cache
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\bin\Release\Metal Gear Solid 5 Tool.exe.config
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\obj\Release\MGS5.Properties.Resources.resources
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\bin\Release\Metal Gear Solid 5 Tool.exe.manifest
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\bin\Release\Metal Gear Solid 5 Tool.application
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\bin\Release\Metal Gear Solid 5 Tool.exe
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\bin\Release\Metal Gear Solid 5 Tool.pdb
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\obj\Release\Metal Gear Solid 5 Tool.exe.manifest
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\obj\Release\Metal Gear Solid 5 Tool.application
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\obj\Release\Metal Gear Solid 5 Tool.exe
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5\MGS4\obj\Release\Metal Gear Solid 5 Tool.pdb
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\bin\Release\Metal Gear Solid 5 Tool.exe.config
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Metal Gear Solid 5 Tool.exe
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Metal Gear Solid 5 Tool.pdb

@@ -1,0 +1,69 @@
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\bin\Release\Fallout 3 Tool.exe.config
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Fallout3.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Fallout3.Form1.resources
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Fallout3.Properties.Resources.resources
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Fallout3.csproj.GenerateResource.Cache
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\bin\Release\Fallout 3 Tool.exe.manifest
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\bin\Release\Fallout 3 Tool.application
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\bin\Release\Fallout 3 Tool.exe
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\bin\Release\Fallout 3 Tool.pdb
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Fallout 3 Tool.exe.manifest
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Fallout 3 Tool.application
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Fallout 3 Tool.exe
+C:\Users\Brandon\Desktop\Playstation RTE\MGS5 - Copy\Fallout3\obj\Release\Fallout 3 Tool.pdb
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe.config
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.exe
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.pdb
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe.manifest
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.application
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.pdb
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout3.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout3.Form1.resources
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout3.Properties.Resources.resources
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout3.csproj.GenerateResource.Cache
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.exe.manifest
+C:\Users\Brandon\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.application
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe.config
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.exe
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.pdb
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout3.csprojResolveAssemblyReference.cache
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout3.Form1.resources
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout3.Properties.Resources.resources
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout3.csproj.GenerateResource.Cache
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe.manifest
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.application
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.pdb
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.exe.manifest
+C:\Users\BrandonPrintiss\Desktop\Playstation RTE\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.application
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe.config
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.exe
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.pdb
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\obj\Release\Fallout3.csprojResolveAssemblyReference.cache
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\obj\Release\Fallout3.Form1.resources
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\obj\Release\Fallout3.Properties.Resources.resources
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\obj\Release\Fallout3.csproj.GenerateResource.Cache
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe.manifest
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.application
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.pdb
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.exe.manifest
+C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.application
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe.config
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe.manifest
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.application
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.exe
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\bin\Release\Fallout 3 Tool.pdb
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\bin\Release\MultiLib.dll
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\bin\Release\MultiLib.pdb
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout3.csprojResolveAssemblyReference.cache
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout3.Form1.resources
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout3.Properties.Resources.resources
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout3.csproj.GenerateResource.cache
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout3.csproj.CoreCompileInputs.cache
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.exe.manifest
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.application
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout3.csproj.CopyComplete
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.exe
+H:\Coding Projects\Projects\OLD\Fallout 3\Fallout3\obj\Release\Fallout 3 Tool.pdb
