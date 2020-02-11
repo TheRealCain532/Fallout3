@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Fallout 3 Tool.exe.manifest" size="5934">
+    <dependentAssembly dependencyType="install" codebase="Fallout 3 Tool.exe.manifest" size="4615">
       <assemblyIdentity name="Fallout 3 Tool.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oTupy2gdZZ9aehaVCUW1A7DZM85LCsc7Pgh2Sbj29qk=</dsig:DigestValue>
+        <dsig:DigestValue>jSbMBCv49rNiWEC/Ple5WRGEC0J+siyLXxUJ2dMOK+0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

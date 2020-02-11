@@ -19,8 +19,11 @@ namespace Fallout3
         {
             InitializeComponent();
         }
-        private void tmapi_CheckedChanged(object sender, EventArgs e)
+        bool WriteCheat_BOOL(uint address)
         {
+            bool current = PS3.Extension.ReadBool(address);
+            PS3.Extension.WriteBool(address, !current);
+            return current;
         }
         private void Connect_Click(object sender, EventArgs e)
         {
@@ -35,6 +38,7 @@ namespace Fallout3
                 state = PS3.AttachProcess();
                     label2.Text = state ? "Attached" : "Not Attached";
                     label2.ForeColor = state ? Color.DodgerBlue : Color.Red;
+                    Connect.ForeColor = state ? Color.DodgerBlue : Color.Red;
                 if (state)
                     PS3.CCAPI.Notify(CCAPI.NotifyIcon.GRAB, "Fallout 3 - Attached");
             }
@@ -43,9 +47,6 @@ namespace Fallout3
                 MessageBox.Show("Something Went Wrong! Notify your Vault Technician", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        byte[] on = { 0x01 };
-        byte[] off = { 0x00 };
-        bool[] Cheats = new bool[20];
         private void phyicsbox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (physicsbox.Text == "Jump Height")
@@ -56,9 +57,7 @@ namespace Fallout3
         private void physicsbar_Scroll(object sender, EventArgs e)
         {
             if (physicsbox.Text =="Jump Height")
-            {
                 physicsbar.Maximum = 1000;
-            }
             PS3.Extension.WriteFloat(Addresses.Physics()[physicsbox.SelectedIndex], physicsbar.Value);
             physvalue.Text = "Current Value: " + physicsbar.Value;
         }
@@ -124,12 +123,12 @@ namespace Fallout3
             }
             else if (multibox.Text == "Melee Damage")
             {
-                PS3.Extension.WriteFloat(Addresses.multiplier()[multibox.SelectedIndex], (Byte)multivalue.Value);
+                PS3.Extension.WriteFloat(Addresses.multiplier()[multibox.SelectedIndex], multivalue.Value);
                 multvalue.Text = "Current Value: " + multivalue.Value;
             }
             else if (multibox.Text == "Unarmed Damage")
             {
-                PS3.Extension.WriteFloat(Addresses.multiplier()[multibox.SelectedIndex], (Byte)multivalue.Value);
+                PS3.Extension.WriteFloat(Addresses.multiplier()[multibox.SelectedIndex], multivalue.Value);
                 multvalue.Text = "Current Value: " + multivalue.Value;
             }
             else
@@ -146,53 +145,30 @@ namespace Fallout3
         }
         private void mrr_Click(object sender, EventArgs e)
         {
-            byte[] on = { 0x46, 0x9C, 0x40, 0x00 };
-            byte[] off = { 0x40, 0xA0, 0x00, 0x00 };
-            PS3.SetMemory(0x012B74E4, Cheats[5] ? on : off);
-            PS3.SetMemory(0x012BAEF4, Cheats[5] ? on : off);
-            PS3.SetMemory(0x012B7894, Cheats[5] ? on : off);
+            uint[] ToSet = { 0x012B74E4, 0x012BAEF4, 0x012B7894, };
+            bool current = PS3.Extension.ReadFloat(ToSet[0]) == 5.0f;
+            foreach (uint item in ToSet)
+                PS3.Extension.WriteFloat(item, current ? 20000 : 5);
         }
         private void mstats_Click(object sender, EventArgs e)
         {
-            byte[] on = { 0x64 };
-            byte[] off = { 0x34 };
             bool current = PS3.Extension.ReadByte(0x12B7624) == 0x34; //orig
-            PS3.SetMemory(0x12B7624, Cheats[4] ? on : off);
-        }
-        private void god_Click(object sender, EventArgs e)
-        {
-            PS3.SetMemory(0x112076C, Cheats[3] ? on : off);
+            PS3.Extension.WriteByte(0x12B7624, current ? (byte)0x64 : (byte)0x34);
         }
         private void rfire_Click(object sender, EventArgs e)
         {
-            byte[] on = { 0x41, 0xA0, 0x00, 0x00 };
-            byte[] off = { 0x3F, 0x80, 0x00, 0x00 };
-
-            PS3.SetMemory(0x12B9B34, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9B44, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9B54, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9B64, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9B74, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9B84, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9B94, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9BA4, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9BB4, Cheats[2] ? on : off);
-            PS3.SetMemory(0x12B9BC4, Cheats[2] ? on : off);
+            uint[] ToSet = { 0x12B9B34, 0x12B9B44, 0x12B9B54, 0x12B9B64, 0x12B9B74, 0x12B9B84, 0x12B9B94, 0x12B9BA4, 0x12B9BB4, 0x12B9BC4, };
+            bool current = PS3.Extension.ReadFloat(ToSet[0]) == 1.0f; //off
+            foreach (uint item in ToSet)
+                PS3.Extension.WriteFloat(item, current ? 20 : 1);
         }
-        private void lbrte_Click(object sender, EventArgs e)
+        private void Cheat_Click(object sender, EventArgs e)
         {
-            PS3.SetMemory(0x12C88F0, Cheats[1] ? on : off);
-        }
-        bool toggle;
-        private void ufo_Click(object sender, EventArgs e)
-        {
-            bool current = PS3.Extension.ReadBool(0x12B7410);
-            PS3.Extension.WriteBool(0x12B7410, !current);
+            Button button = (Button)sender;
+            if (button.Name == "god")       button.ForeColor = !WriteCheat_BOOL(0x112076C) ? Color.DodgerBlue : Color.Gray;
+            if (button.Name == "ufo")       button.ForeColor = !WriteCheat_BOOL(0x12B7410) ? Color.DodgerBlue : Color.Gray;
+            if (button.Name == "lbrte")     button.ForeColor = !WriteCheat_BOOL(0x12C88F0) ? Color.DodgerBlue : Color.Gray;
         }
 
-        private void Cain532_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://www.youtube.com/channel/UCkcwOVXVTKP1pEoiFgA-bFQ");
-        }
     }
     }

@@ -1,1 +1,17 @@
 C:\Users\BrandonPrintiss\Google Drive\Fallout 3\Fallout3\bin\Debug\Fallout 3 Tool.exe.config
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\bin\Debug\Fallout 3 Tool.exe.config
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\bin\Debug\Fallout 3 Tool.exe.manifest
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\bin\Debug\Fallout 3 Tool.application
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\bin\Debug\Fallout 3 Tool.exe
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\bin\Debug\Fallout 3 Tool.pdb
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\bin\Debug\MultiLib.dll
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\bin\Debug\MultiLib.pdb
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout3.csprojAssemblyReference.cache
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout3.Form1.resources
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout3.Properties.Resources.resources
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout3.csproj.GenerateResource.cache
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout 3 Tool.exe.manifest
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout 3 Tool.application
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout3.csproj.CopyComplete
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout 3 Tool.exe
+C:\Users\Brandon\Source\Repos\Fallout3\Fallout3\obj\Debug\Fallout 3 Tool.pdb

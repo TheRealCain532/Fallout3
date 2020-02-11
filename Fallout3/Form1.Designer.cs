@@ -102,7 +102,6 @@
             this.tmapi.Name = "tmapi";
             this.tmapi.TabStop = true;
             this.tmapi.UseVisualStyleBackColor = true;
-            this.tmapi.CheckedChanged += new System.EventHandler(this.tmapi_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -197,21 +196,21 @@
             resources.ApplyResources(this.god, "god");
             this.god.Name = "god";
             this.god.UseVisualStyleBackColor = true;
-            this.god.Click += new System.EventHandler(this.god_Click);
+            this.god.Click += new System.EventHandler(this.Cheat_Click);
             // 
             // lbrte
             // 
             resources.ApplyResources(this.lbrte, "lbrte");
             this.lbrte.Name = "lbrte";
             this.lbrte.UseVisualStyleBackColor = true;
-            this.lbrte.Click += new System.EventHandler(this.lbrte_Click);
+            this.lbrte.Click += new System.EventHandler(this.Cheat_Click);
             // 
             // ufo
             // 
             resources.ApplyResources(this.ufo, "ufo");
             this.ufo.Name = "ufo";
             this.ufo.UseVisualStyleBackColor = true;
-            this.ufo.Click += new System.EventHandler(this.ufo_Click);
+            this.ufo.Click += new System.EventHandler(this.Cheat_Click);
             // 
             // rfire
             // 
