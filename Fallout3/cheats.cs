@@ -1,22 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using MultiLib;
-using Fallout3.Properties;
-
+﻿
 namespace Fallout3
 {
     public class Addresses
     {
-        public static uint[] multiplier()
-        {
-            return new uint[]
+        public static uint[] multiplier =
             {
             0x012BBDE4,//HP Per Level
             0x012BAEB4,//XP Per LockPick
@@ -30,10 +17,7 @@ namespace Fallout3
             0x12B7634,//Melee Damage 
             0x012B74E4,//Unarmed Damage
             };
-         }
-        public static uint[] Physics()
-        {
-            return new uint[]
+        public static uint[] Physics =
             {
                  0x12BC2B4,//Jump Height
                  0x13D5B9C,//Run Speed
@@ -41,7 +25,6 @@ namespace Fallout3
                  0x13D5BAC,//Walk Speed 
 
             };
-        }
 
         
 

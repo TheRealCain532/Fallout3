@@ -44,19 +44,19 @@ namespace Fallout3
         {
             if (physicsbox.Text == "Jump Height")
                 physicsbar.Maximum = 1000;
-            physicsbar.Value = (Int32)PS3.Extension.ReadFloat(Addresses.Physics()[physicsbox.SelectedIndex]);
+            physicsbar.Value = (Int32)PS3.Extension.ReadFloat(Addresses.Physics[physicsbox.SelectedIndex]);
             physvalue.Text = "Current Value: " + physicsbar.Value;
         }
         private void physicsbar_Scroll(object sender, EventArgs e)
         {
             if (physicsbox.Text =="Jump Height")
                 physicsbar.Maximum = 1000;
-            PS3.Extension.WriteFloat(Addresses.Physics()[physicsbox.SelectedIndex], physicsbar.Value);
+            PS3.Extension.WriteFloat(Addresses.Physics[physicsbox.SelectedIndex], physicsbar.Value);
             physvalue.Text = "Current Value: " + physicsbar.Value;
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int check = PS3.Extension.ReadByte(Addresses.multiplier()[multibox.SelectedIndex]);
+            int check = PS3.Extension.ReadByte(Addresses.multiplier[multibox.SelectedIndex]);
             if (multibox.Text == "HP Per Level")
             {
                 if (check == 61)
@@ -66,7 +66,7 @@ namespace Fallout3
                 }
                 else
                 {
-                    multivalue.Value = (Int32)PS3.Extension.ReadFloat(Addresses.multiplier()[multibox.SelectedIndex]);
+                    multivalue.Value = (Int32)PS3.Extension.ReadFloat(Addresses.multiplier[multibox.SelectedIndex]);
                     multvalue.Text = "Current Value: " + multivalue.Value;
                 }
             }
@@ -79,7 +79,7 @@ namespace Fallout3
                     }
                     else
                     {
-                        multivalue.Value = (Int32)PS3.Extension.ReadFloat(Addresses.multiplier()[multibox.SelectedIndex]);
+                        multivalue.Value = (Int32)PS3.Extension.ReadFloat(Addresses.multiplier[multibox.SelectedIndex]);
                         multvalue.Text = "Current Value: " + multivalue.Value;
                     }
                 }
@@ -97,13 +97,13 @@ namespace Fallout3
                 }
                 else
                 {
-                    multivalue.Value = (Int32)PS3.Extension.ReadFloat(Addresses.multiplier()[multibox.SelectedIndex]);
+                    multivalue.Value = (Int32)PS3.Extension.ReadFloat(Addresses.multiplier[multibox.SelectedIndex]);
                     multvalue.Text = "Current Value: " + multivalue.Value;
                 }
             }
             else
             {
-                multivalue.Value = PS3.Extension.ReadInt32(Addresses.multiplier()[multibox.SelectedIndex]);
+                multivalue.Value = PS3.Extension.ReadInt32(Addresses.multiplier[multibox.SelectedIndex]);
                 multvalue.Text = "Current Value: " + multivalue.Value;
             }
             }
@@ -111,22 +111,22 @@ namespace Fallout3
         {
             if (multibox.Text == "AR Dmg/Fire Rate")
             {
-                PS3.Extension.WriteFloat(Addresses.multiplier()[multibox.SelectedIndex], (Byte)multivalue.Value);
+                PS3.Extension.WriteFloat(Addresses.multiplier[multibox.SelectedIndex], (Byte)multivalue.Value);
                 multvalue.Text = "Current Value: " + multivalue.Value;
             }
             else if (multibox.Text == "Melee Damage")
             {
-                PS3.Extension.WriteFloat(Addresses.multiplier()[multibox.SelectedIndex], multivalue.Value);
+                PS3.Extension.WriteFloat(Addresses.multiplier[multibox.SelectedIndex], multivalue.Value);
                 multvalue.Text = "Current Value: " + multivalue.Value;
             }
             else if (multibox.Text == "Unarmed Damage")
             {
-                PS3.Extension.WriteFloat(Addresses.multiplier()[multibox.SelectedIndex], multivalue.Value);
+                PS3.Extension.WriteFloat(Addresses.multiplier[multibox.SelectedIndex], multivalue.Value);
                 multvalue.Text = "Current Value: " + multivalue.Value;
             }
             else
             {
-                PS3.Extension.WriteInt32(Addresses.multiplier()[multibox.SelectedIndex], multivalue.Value);
+                PS3.Extension.WriteInt32(Addresses.multiplier[multibox.SelectedIndex], multivalue.Value);
                 multvalue.Text = "Current Value: " + multivalue.Value;
             }
         }
@@ -158,9 +158,9 @@ namespace Fallout3
         private void Cheat_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            if (button.Name == "god")       button.ForeColor = !WriteCheat_BOOL(0x112076C) ? Color.DodgerBlue : Color.Gray;
-            if (button.Name == "ufo")       button.ForeColor = !WriteCheat_BOOL(0x12B7410) ? Color.DodgerBlue : Color.Gray;
-            if (button.Name == "lbrte")     button.ForeColor = !WriteCheat_BOOL(0x12C88F0) ? Color.DodgerBlue : Color.Gray;
+            if (button.Name == "god")       button.ForeColor = !WriteCheat_BOOL(0x112076C) ? Color.DodgerBlue : Color.Black;
+            if (button.Name == "ufo")       button.ForeColor = !WriteCheat_BOOL(0x12B7410) ? Color.DodgerBlue : Color.Black;
+            if (button.Name == "lbrte")     button.ForeColor = !WriteCheat_BOOL(0x12C88F0) ? Color.DodgerBlue : Color.Black;
         }
 
     }
