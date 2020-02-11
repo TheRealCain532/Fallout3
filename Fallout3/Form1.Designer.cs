@@ -49,12 +49,10 @@
             this.lbrte = new System.Windows.Forms.Button();
             this.ufo = new System.Windows.Forms.Button();
             this.rfire = new System.Windows.Forms.Button();
-            this.Cain532 = new System.Windows.Forms.PictureBox();
             this.statbox2.SuspendLayout();
             this.connectbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.multivalue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.physicsbar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Cain532)).BeginInit();
             this.SuspendLayout();
             // 
             // Connect
@@ -222,19 +220,10 @@
             this.rfire.UseVisualStyleBackColor = true;
             this.rfire.Click += new System.EventHandler(this.rfire_Click);
             // 
-            // Cain532
-            // 
-            this.Cain532.Image = global::Fallout3.Properties.Resources.Cain532;
-            resources.ApplyResources(this.Cain532, "Cain532");
-            this.Cain532.Name = "Cain532";
-            this.Cain532.TabStop = false;
-            this.Cain532.Click += new System.EventHandler(this.Cain532_Click);
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Cain532);
             this.Controls.Add(this.statbox2);
             this.Controls.Add(this.connectbox);
             this.Controls.Add(this.tmapi);
@@ -261,7 +250,6 @@
             this.connectbox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.multivalue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.physicsbar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Cain532)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,7 +277,6 @@
         private System.Windows.Forms.Button lbrte;
         private System.Windows.Forms.Button ufo;
         private System.Windows.Forms.Button rfire;
-        private System.Windows.Forms.PictureBox Cain532;
 
     }
 }
